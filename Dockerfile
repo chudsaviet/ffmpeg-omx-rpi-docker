@@ -4,7 +4,10 @@ FROM debian:stretch-slim
 ENV FFMPEG_VERSION=4.1
 
 ARG FFMPEG_CONFIGURE_OPTIONS="\
- --disable-ffplay --disable-ffprobe --disable-doc \
+ --disable-everything \
+ --enable-ffmpeg \
+ --enable-decoder=rawvideo \
+ --enable-muxer=hls \
  --enable-omx-rpi \
 "
 
