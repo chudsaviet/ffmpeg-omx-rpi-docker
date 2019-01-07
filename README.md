@@ -1,6 +1,6 @@
 ffmpeg-omx-rpi-docker
 =====================
-Slim FFMPEG build created solely to stream video from Raspberry Pi camera module as and HLS stream with hardware h264 encoding (OpenMAX, h264_omx).
+Slim FFMPEG build created solely to stream video from Raspberry Pi camera module as an HLS stream with hardware h264 encoding (OpenMAX, h264_omx).
 
 Usage
 -----
