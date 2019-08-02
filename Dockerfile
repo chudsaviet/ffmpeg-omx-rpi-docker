@@ -1,7 +1,7 @@
 # It's tricky to build on Alpine because of absense of pre-built libomxil-bellagio
-FROM debian:stretch-slim
+FROM debian:buster-slim
 
-ENV FFMPEG_VERSION=4.1
+ENV FFMPEG_VERSION=4.1.4
 
 # Path to OpenMAX hardware encoding libraries. They are part of Raspberry Pi firmware.
 ENV LD_LIBRARY_PATH=/opt/vc/lib 
